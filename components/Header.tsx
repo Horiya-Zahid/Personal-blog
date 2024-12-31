@@ -11,7 +11,7 @@ const Header = () => {
             <Image width={80} height={80} src={logoDark} alt="logoDark" />
           </div>
         </Link>
-        <div>
+        {/* <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
             <li className="headerLi">Home</li>
             <li className="headerLi">Posts</li>
@@ -19,14 +19,9 @@ const Header = () => {
             <li className="headerLi">Features</li>
             <li className="headerLi">Contact</li>
           </ul>
-        </div>
+        </div> */}
         <div className="flex items-center gap-8 text-lg">
           <div className="flex items-center gap-1">
-            <img
-              className="w-8 h-8 rounded-full"
-              src="https://www.noormohammad.live/static/media/roundedProfile.477a194221d255c8ce26.png"
-              alt="logo"
-            />
             <p className="text-sm font-medium">Hello Stranger!</p>
           </div>
 
